@@ -1,4 +1,4 @@
-<x-layouts.layout>
+<x-layouts.layout title="Home">
     @guest
     <div class="hero min-h-full" style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);">
         <div class="hero-overlay bg-opacity-60"></div>
