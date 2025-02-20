@@ -6,7 +6,7 @@ use App\Http\Controllers\HomeController;
 
 //ruta protegida --> Middleware
 Route::get("", [HomeController::class, 'index'])
-    ->name('alumnos')
+    ->name('enter')
     ->middleware('auth');
 
 Route::get('/', function () {
