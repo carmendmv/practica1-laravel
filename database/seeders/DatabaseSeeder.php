@@ -21,3 +21,5 @@ class DatabaseSeeder extends Seeder
         ]);
     }
 }
+
+//llama a la fabrica de datos

@@ -19,7 +19,6 @@
         const loginButton = document.getElementById('loginButton');
         const loginForm = document.getElementById('loginForm');
 
-
         // Cuando se hace clic en "Inicia sesión", muestra el formulario de inicio de sesión
         loginButton.addEventListener('click', () => {
             loginForm.classList.toggle('hidden'); // Muestra u oculta el formulario
@@ -41,7 +40,7 @@
             <h2 class="card-title">Alumnos</h2>
             <p>Accede a la lista de alumnos</p>
             <div class="card-actions justify-end">
-                <button class="btn btn-primary">Ver alumnos</button>
+                <button id= "alumnosButton" class=" btn btn-primary">Ver alumnos</button>
             </div>
         </div>
     </div>
